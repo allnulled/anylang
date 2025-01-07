@@ -1,0 +1,13 @@
+{
+  "name": "@allnulled/anylang",
+  "version": "1.0.0",
+  "description": "Sintaxis abierta, agrupable, recursiva y minimalista.",
+  "main": "anylang.js",
+  "scripts": {
+    "build": "npx pegjs --format globals --export-var AnylangParser anylang.pegjs && node fix.js && npm test",
+    "test": "npx mocha test/test.js"
+  },
+  "keywords": [],
+  "author": "allnulled",
+  "license": "WTFPL"
+}

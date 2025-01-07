@@ -1,0 +1,51 @@
+[
+  {
+    "Puedes escribir esto": null
+  },
+  {
+    "Esto": {
+      "esto": {
+        "esto": {
+          "esto": null
+        }
+      }
+    }
+  },
+  {
+    "Puedes no poner punto\n\nPuedes usar comas, para separar cosas; también puntos y comas, acentos raros, apóstrofes": null
+  },
+  [
+    {
+      "Puedes intercalar puntos: 1.1.1. Título": {
+        "contenido": null
+      }
+    },
+    {
+      "y los pillará de forma bastante": {
+        "inteligente": null
+      }
+    }
+  ],
+  [
+    {
+      "puedes hacer": {
+        "esto": null
+      }
+    },
+    {
+      "y luego": {
+        "esto": {
+          "otro": null
+        }
+      }
+    },
+    {
+      "y": {
+        "también te lo pilla bien": null
+      }
+    }
+  ],
+  {
+    "Puedes hacer bastantes cosas, pienso.": null
+  }
+]

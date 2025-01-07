@@ -1,0 +1,17 @@
+[
+  {
+    "module.exports = function": {
+      "a, b, c": null
+    }
+  },
+  [
+    {
+      "let x = 100": null
+    },
+    {
+      "print": {
+        "\"Ma whereva\"": null
+      }
+    }
+  ]
+]

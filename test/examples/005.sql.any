@@ -1,0 +1,6 @@
+SELECT * FROM table WHERE (
+    columna1 = 'x' AND (
+        columna2 = 'y' OR
+        columna2 = 'z'
+    )
+)
