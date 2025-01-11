@@ -2,6 +2,12 @@
 
 Sintaxis abierta que siempre devuelve objetos de arrays.
 
+## Editor en línea
+
+Con **open-editor** puedes crear ficheros `*.any` y compilar:
+
+- [https://allnulled.github.io/open-editor](https://allnulled.github.io/open-editor)
+
 ## Instalar
 
 ```sh
