@@ -170,4 +170,28 @@ SELECT * FROM table WHERE (
 )
 ```
 
+Sacaría esto:
 
+```sql
+{
+  "SELECT * FROM table WHERE": [
+    {
+      "columna1 = 'x' AND": [
+        {
+          "columna2 = 'y' OR\n        columna2 = 'z'": []
+        }
+      ]
+    }
+  ]
+}
+```
+
+Pero bueno. Para representar ideas guarras rápidamente.
+
+Y al ver el JSON te haces una idea de una representación universal de tu idea.
+
+Y si quieres, ya puedes usarlo, aunque no lo he hecho pensando en eso. Es la cosa de... poder expresar, ordenar y agrupar ideas con un lenguaje sin normas.
+
+No es que se pueda parsear todo, evidente. Pero de paso, debería poder un poco.
+
+Pero un poco. La idea es eso: *expresar, ordenar y agrupar ideas en forma de texto*.
