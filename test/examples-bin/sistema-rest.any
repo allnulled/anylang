@@ -1,0 +1,12 @@
+Las acciones de la REST son {
+    /schema {
+        /get { devuelve el esquema }
+        /{add | remove | rename}/{ table | column }
+    }
+    /data {
+        /select [ seleccionar objetos ]
+        /insert [ insertar un objeto ]
+        /update [ actualizar un objeto ]
+        /delete [ eliminar un objeto ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+  "Las acciones de la REST son": [
+    {
+      "/schema": [
+        {
+          "/get": [
+            {
+              "devuelve el esquema": []
+            }
+          ],
+          "/": [
+            {
+              "table | column": []
+            }
+          ]
+        }
+      ],
+      "/data": [
+        {
+          "/select": [
+            {
+              "seleccionar objetos": []
+            }
+          ],
+          "/insert": [
+            {
+              "insertar un objeto": []
+            }
+          ],
+          "/update": [
+            {
+              "actualizar un objeto": []
+            }
+          ],
+          "/delete": [
+            {
+              "eliminar un objeto": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "Documento": [
+    {
+      "Título": [
+        {
+          "Lo que sea": []
+        }
+      ],
+      "Cuerpo": [
+        {
+          "Sección 1": [
+            {
+              "Sección 1.1": [
+                null
+              ],
+              "Sección 1.2": [
+                null
+              ],
+              "Sección 1.3": [
+                null
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

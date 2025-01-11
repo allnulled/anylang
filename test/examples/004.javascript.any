@@ -1,4 +1,4 @@
 module.exports = function(a, b, c) {
-    let x = 100.
-    print("Ma whereva").
+    let x = 100;
+    print("Ma whereva");
 }

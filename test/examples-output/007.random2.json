@@ -1,0 +1,46 @@
+{
+  "Requisitos de la aplicación": [
+    {
+      "1 - Que pueda reportar jerárquicamente el estado de la base de datos": [
+        {
+          "1 - Conformando una red de nodos.\n  2 - Que no se conocen todos entre sí.\n  3 - Que solo conocen al padre y le reportan a él cada uno.": []
+        }
+      ],
+      "2 - Que pueda autentificarse y autorizarse de forma centralizada": [
+        {
+          "1 - Aquí sí que todos conocen al autentificador.\n  2 - Todos se comunican directamente con el autentificador.\n  3 - El autentificador es un servidor independiente pero con la misma base que todos.": []
+        }
+      ]
+    }
+  ],
+  "Servicios de la aplicación": [
+    {
+      "/api/v1": [
+        {
+          "/schema": [
+            {
+              "/get": [
+                " Devuelve el esquema de datos. Aquí sí puedes usar los paréntesis [] () {} todos, no importa no se rompen, ni tampoco tuberías | no se rompen | será todo un texto "
+              ],
+              "/": [
+                {
+                  "add|remove|rename": []
+                },
+                {
+                  "/": [
+                    {
+                      "table|column": []
+                    }
+                  ],
+                  "/:id": [
+                    null
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,11 @@
 {
-  "SELECT * FROM table WHERE": {
-    "columna1 = 'x' AND": {
-      "columna2 = 'y' OR\n        columna2 = 'z'": null
+  "SELECT * FROM table WHERE": [
+    {
+      "columna1 = 'x' AND": [
+        {
+          "columna2 = 'y' OR\n        columna2 = 'z'": []
+        }
+      ]
     }
-  }
+  ]
 }

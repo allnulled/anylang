@@ -1,15 +1,22 @@
 {
   "clase Main": [
     {
-      "private static void main": [
+      "private void int wherever = 10": [],
+      "public static void main": [
         {
-          "String": []
+          "String": [
+            null
+          ],
+          "args": []
         },
         {
-          "args": null
+          "System.out.println": [
+            {
+              "\"Hola!\"": []
+            }
+          ]
         }
       ]
-    },
-    []
+    }
   ]
 }

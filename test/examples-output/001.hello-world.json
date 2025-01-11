@@ -1,21 +1,22 @@
-[
-  {
-    "Hello,": {
-      "user.name": null
+{
+  "Hello,": [
+    {
+      "user.name": []
     }
-  },
-  [
+  ],
+  ".\n\nI'm writting to": [
     {
-      "I'm writting to": {
-        "you, all": null
-      }
-    },
+      "you, all": []
+    }
+  ],
+  "in order to": [
     {
-      "in order to": {
-        "fullfill the requirements of": {
-          "wherever": null
+      "fullfill the requirements of": [
+        {
+          "wherever": []
         }
-      }
+      ]
     }
-  ]
-]
+  ],
+  ".": []
+}
